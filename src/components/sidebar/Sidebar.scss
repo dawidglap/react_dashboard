@@ -1,0 +1,46 @@
+.sidebar{
+    flex: 1;
+    background: #212529;
+    border-radius: 20px;
+    max-height: 100vh;
+    margin-top: -70px;
+
+    .logo{
+        font-family: 'Audiowide', cursive;
+    }
+
+    .center{
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li{
+                margin-top: 10px;
+                margin-bottom:10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.282);
+                }
+            }
+        }
+    }
+
+   
+}
+
+.icon{
+    cursor: pointer;
+    
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.282);
+    }
+}
+
+
+

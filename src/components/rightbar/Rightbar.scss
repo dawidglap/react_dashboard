@@ -1,0 +1,55 @@
+.rightbar{
+    display: flex;
+    flex: 3;
+    // background: yellow;
+}
+
+.btn-custom{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bg-dark{
+    border-radius: 20px;
+}
+
+.bg-dark-grey{
+    background-color: #404040;
+    border-radius: 15px;
+    height: 16px;
+}
+
+.loading-bar{
+    background-color: #D1E1E9;
+    width: 70%;
+    border-radius: 15px;
+    height: 16px;
+}
+
+.text-dark-grey{
+  color: #404040;
+}
+
+.mt-custom{
+    margin-top: -20px;
+}
+
+.custom-icon{
+    background-color: #212529;
+    margin-top: 5px;
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+
+.mt-icon{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.text-grey{
+    color: grey;
+}
+
+.color-custom{
+   color: rgb(72, 216, 72);
+}

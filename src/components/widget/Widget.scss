@@ -1,0 +1,21 @@
+.widget{
+  display: flex;
+  flex:1;
+  padding: 10px;
+  justify-content: space-between;
+  background: #D1E1E9;
+  border-radius: 20px;
+
+}
+
+.dots{
+
+    
+    &:hover{
+        color: #D1E1E9;
+        background-color: black;
+        border-radius: 50%;
+        transition: background-color 0.25s ease-in-out;
+
+    }
+}

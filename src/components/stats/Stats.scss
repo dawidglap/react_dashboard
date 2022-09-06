@@ -1,0 +1,26 @@
+.stats{
+    display: flex;
+    flex: 3;
+    padding: 10px;
+    justify-content: space-between;
+    background: #D1E1E9;
+    border-radius: 20px;
+   
+}
+
+.statsWrapper{
+    // display: flex;
+    flex: 3.75;
+}
+
+.bg-custom{
+    background-color: rgba(52, 205, 52, 0.493);
+    border-radius: 10px;
+}
+
+.bg-custom-neg{
+    background-color: rgba(255, 0, 0, 0.479);
+    border-radius: 10px;
+
+}
+
