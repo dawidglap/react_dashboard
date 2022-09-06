@@ -41,16 +41,16 @@ const TableData = ({ type }) => {
     }
     return (
         <div className="col-12 d-flex">
-            <div className='col-3'>
+            <div className='col-1'>
                 <img src={data.img} alt="person-profile-img" className='img-email me-5 ' />
             </div>
             <div className="col-3">
                 <p className='fw-light text-start '>{data.name}</p>
             </div>
-            <div className="col-3">
+            <div className="col-7">
                 <p className='fw-light text-start'>{data.message}</p>
             </div>
-            <div className='col-3'>
+            <div className='col-1'>
                 <p className='fw-light text-end'>{data.time}</p>
             </div>
         </div >
