@@ -40,16 +40,20 @@ const TableData = ({ type }) => {
             break;
     }
     return (
-        <div className="col-12 d-flex justify-content-between">
-            <div className='d-flex'>
+        <div className="col-12 d-flex">
+            <div className='col-3'>
                 <img src={data.img} alt="person-profile-img" className='img-email me-5 ' />
-                <p className='fw-light  '>{data.name}</p>
             </div>
-            <div className='d-flex'>
-                <p className='fw-light  me-5'>{data.message}</p>
-                <p className='fw-light ms-5 '>{data.time}</p>
+            <div className="col-3">
+                <p className='fw-light text-start '>{data.name}</p>
             </div>
-        </div>
+            <div className="col-3">
+                <p className='fw-light text-start'>{data.message}</p>
+            </div>
+            <div className='col-3'>
+                <p className='fw-light text-end'>{data.time}</p>
+            </div>
+        </div >
     )
 }
 
