@@ -15,7 +15,7 @@ const Navbar = () => {
                             <li className="ps-3 pe-3 cursor-pointer"><i className="far fa-calendar-alt fa-xl"></i></li>
                             <li className="ps-3 pe-3 cursor-pointer"><i className="far fa-comment-dots fa-xl"></i></li>
                             <li className="ps-3 pe-3 cursor-pointer"><i className="fa-solid fa-bell fa-xl"></i></li>
-                            <li className=''><img src="https://media-exp1.licdn.com/dms/image/D4E35AQFwCwKtstbnkg/profile-framedphoto-shrink_400_400/0/1658938979891?e=1663016400&v=beta&t=562kYTB7bKWqZGqbu-nXRIcKaYMvgE6jYPcc7QFpmfI" className="nav-photo ms-2 me-2 cursor-pointer"
+                            <li className=''><img src="https://i.ibb.co/tDzn086/IMG-8829-2.jpg" className="nav-photo ms-2 me-2 cursor-pointer"
                                 alt="profile-pic" width="42px" /></li>
                             <li className="ps-3 pe-3 cursor-pointer"><i className="fa-solid fa-chevron-down "></i>
                             </li>
